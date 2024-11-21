@@ -1,11 +1,11 @@
-import { StyleSheet, View, Text, StatusBar } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { Text, View } from "react-native";
 
-export default function HomeScreen() {
+const Home = () => {
   return (
-    //write hellow world in view
-    <SafeAreaView className="flex-1 items-center justify-center bg-white">
-      <Text className="text-red-500">testing uber clone</Text>
-    </SafeAreaView>
+    <View>
+      <Text>Home Screen</Text>
+    </View>
   );
-}
+};
+
+export default Home;
